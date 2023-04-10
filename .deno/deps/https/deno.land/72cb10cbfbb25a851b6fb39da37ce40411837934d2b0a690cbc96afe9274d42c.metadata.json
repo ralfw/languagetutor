@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "via": "http/2 edgeproxy",
+    "server": "deno/gcp-us-west1",
+    "x-deno-warning": "Implicitly using latest version (1.4.2) for https://deno.land/x/escape/mod.ts",
+    "access-control-allow-origin": "*",
+    "location": "/x/escape@1.4.2/mod.ts",
+    "vary": "Accept-Encoding",
+    "date": "Mon, 10 Apr 2023 13:44:46 GMT"
+  },
+  "url": "https://deno.land/x/escape/mod.ts",
+  "now": {
+    "secs_since_epoch": 1681134286,
+    "nanos_since_epoch": 724458892
+  }
+}

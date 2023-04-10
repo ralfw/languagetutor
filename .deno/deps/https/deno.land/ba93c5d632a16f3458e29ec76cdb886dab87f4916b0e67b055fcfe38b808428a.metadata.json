@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "access-control-allow-origin": "*",
+    "x-deno-warning": "Implicitly using latest version (v1.0) for https://deno.land/x/html_entities/mod.ts",
+    "location": "/x/html_entities@v1.0/mod.ts",
+    "date": "Mon, 10 Apr 2023 13:48:09 GMT",
+    "server": "deno/gcp-us-west1",
+    "vary": "Accept-Encoding",
+    "via": "http/2 edgeproxy"
+  },
+  "url": "https://deno.land/x/html_entities/mod.ts",
+  "now": {
+    "secs_since_epoch": 1681134489,
+    "nanos_since_epoch": 769296001
+  }
+}
