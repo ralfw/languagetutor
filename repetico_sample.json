@@ -1,0 +1,26 @@
+[
+  {
+    "question": "<p>der / die</p>",
+    "answer": "<p>el / la</p>",
+    "categories": [
+      "Adjektiv",
+      "Artikel, bestimmt"
+    ],
+    "keywords": []
+  },
+  {
+    "question": "<p>ein / eine</p>",
+    "answer": "<p>un / una</p>",
+    "categories": [
+      "Adjektiv",
+      "Artikel, unbestimmt"
+    ],
+    "keywords": []
+  },
+  {
+    "question": "m&#252;de<br><br>Ich bin m&#252;de nach einem ganzen Tag Arbeit.",
+    "answer": "cansada <br><br>Estoy cansada despu&#233;s de trabajar todo el d&#237;a.",
+    "categories": [],
+    "keywords": []
+  }
+]
