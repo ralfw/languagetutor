@@ -110,7 +110,7 @@ Deno.test('Map should extract only the first line of the answer', () => {
   const flashcards: Flashcard[] = [
     {
       question: 'q1',
-      answer: 'a1',
+      answer: '<div>a1</div>',
     },
     {
       question: 'q2',
@@ -118,10 +118,14 @@ Deno.test('Map should extract only the first line of the answer', () => {
     },
     {
       question: 'q3',
-      answer: 'a3<br>and more',
+      answer: '<span>a3</span><br>and more',
+    },
+    {
+      question: 'q4',
+      answer: '<span style="abc">a4</span>',
     },
   ];
-  const expected = ["a1", "a2", "a3"];
+  const expected = ["a1", "a2", "a3", "a4"];
   const result = Map(flashcards);
   assertEquals(result, expected);
 });

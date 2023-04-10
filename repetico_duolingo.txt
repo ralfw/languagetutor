@@ -1,0 +1,511 @@
+el / la
+un / una
+el hombre
+la mujer
+el niño
+la niña
+los niños
+yo
+tú
+él
+ella
+usted
+la manzana
+el pan
+la leche
+el agua
+beber
+comer
+ser
+estar
+nosotros
+vosotros
+ustedes
+ellos / ellas
+los / las
+el vino
+el libro
+la carta
+escribir
+leer
+la persona
+el diario
+¡Hola!
+¡Adiós!
+¡Buenos días!
+¡Buenas tardes!
+¡Buenas noches!
+¡Mucho gusto!
+¡Gracias!
+de nada
+por favor
+¡Lo siento!
+hablar
+español
+inglés
+Me llamo Pedro.
+gustar
+el arroz
+el pescado
+el huevo
+el pollo
+el queso
+la fruta
+la pasta
+el jugo
+la naranja
+la carne
+la sopa
+el tomate
+el almuerzo
+la fresa
+el limón
+la comida
+la papa
+la salsa
+la cebolla
+la cena
+el desayuno
+el azúcar
+la sal
+el menú
+el emparedado
+la cerveza
+el té
+el café
+vegetariano
+la verdura
+el gato
+el perro
+el caballo
+el elefante
+el pato
+la tortuga
+el pájaro
+el cangrejo
+la araña
+el oso
+el pingüino
+el animal
+el cerdo
+el ratón
+la rata
+el conejo
+el león
+el mono
+el toro
+la llave
+la palabra
+mi / mis / mío
+tu / tus / tuyo
+su / sus / suyo
+nuestro
+vuestro
+el pantalon
+el zapato
+la camisa
+el sombrero
+la ropa
+el abrigo
+la falda
+el traje
+el calcetín
+las gafas
+el suéter
+la corbata
+el cinturón
+la bota
+la tela
+¿qué?
+¿cómo?
+¿quién/quiénes?
+¿cuál/cuáles?
+¿cuándo?
+¿cuántos/cuántas?
+la pregunta
+la respuesta
+caminar
+nadar
+cocinar
+ver
+dormir
+tener
+correr
+pagar
+ir
+querer
+poder
+hacer
+oír
+tocar
+el color
+azul
+rojo
+blanco
+negro
+amarillo
+verde
+gris
+naranja
+y
+o
+si
+que
+porque
+ni ... ni ...
+o ... o ...
+cuando
+aunque
+sino
+como
+mientras
+pero
+dónde
+la madre
+el padre
+los padres
+el hijo
+la hija
+los hijos
+el hermano
+la hermana
+los hermanos
+el marido
+la esposa
+la familia
+la mamá
+el papá
+el abuelo
+la abuela
+los abuelos
+el primo
+la prima
+el tío
+la tía
+el bebé
+el novio
+la novia
+de
+en
+por
+sobre
+sin
+con
+a
+durante (las vacaciones)
+contra
+hacia
+entre
+bajo
+cerca
+mientras que
+el muchacho / la muchacha
+para
+acerca de
+la luz
+el jugo de naranja
+el calendario
+ayer
+lunes
+hoy
+mañana
+de lunes a miércoles
+los lunes, los martes…
+según
+el año
+el día
+el mes
+la hora
+el minuto
+tarde
+la tarde
+el momento
+la vez
+la semana
+por el momento
+enero
+en abril
+es enero
+el mes de junio
+de marzo a mayo
+hasta<div>
+desde
+la primavera
+la estación
+la temporada
+el rato
+el minuto
+la fiesta
+el/la/lo primero/a/o
+anoche
+la cita
+la fecha
+la madrugada
+las vacaciones
+mañana por la mañana
+el mediodía
+el cumpleaños
+Ayer por la noche
+el vaso
+la cama
+la silla
+la cuchara
+la mesa
+el cuchillo
+el plato
+la ropa de cama
+la piscina
+la taza
+la casa
+la cuna
+la ventana
+la cocina
+la televisión
+el teléfono
+el espejo
+la esponja
+el escritorio
+la puerta
+el sofá
+la lámpara
+la sartén
+el horno
+el piso
+la pared
+el techo
+el sótano
+el dormitorio
+la escalera
+el baño
+el cepillo
+la secadora
+la lavadora
+la habitación
+el refrigerador
+limpiar
+el paraguas
+la cartera
+la sábana
+el jabón
+la rasuradora
+a veces
+alto
+el tamaño
+corto, corta
+enorme
+gran / grande
+bajo, baja
+largo, larga
+pequeño, pequeña
+el rey, la reina / los reyes
+el doctor, la doctora
+el/la policía
+la policía
+el/la estudiante
+el jefe, la jefa
+el maestro, la maestra
+el secretario, la secretaria
+el/la soldado
+el profesor, la profesora
+el juez, la jueza (la juez)
+el/la guardia
+el poeta, la poetisa (la poeta)
+el autor, la autora
+el empresario, la empresaria
+el/la capitán
+el actor, la actriz
+el coronel
+el/la periodista
+el/la artista
+el empleado, la empleada
+el abogado, la abogada
+el principe, la princesa
+el pintor, la pintora
+el/la agente
+el dueño, la dueña
+la especialidad
+el/la comandante
+el/la especialista
+el granjero, la granjera
+el trabajo
+la profesión
+el panadero, la panadera
+el/la sacerdote
+el ingeniero, la ingeniera
+el carpintero, la carpintera
+el mesero, la mesera
+el cocinero, la cocinera
+el conductor, la conductora
+el cajero, la cajera
+el enfermero, la enfermera
+el/la atleta
+bueno, buena
+viejo, vieja
+bilingüe
+joven
+el/la joven
+mismo, misma
+feo, fea
+útil
+menor
+mejor
+primero, primera
+mayor
+real
+cierto, cierta
+posible
+último, última
+final
+positivo, positiva
+importante
+necesario, necesaria
+público, pública
+solo, sola
+personal
+popular
+el teléfono
+duro, dura
+diferente
+capaz
+local
+distinto, distinta
+fuerte
+único, única
+seguro, segura
+principal
+imposible
+simple
+peor
+suficiente
+propio, propia
+siguiente
+profesional
+claro, clara
+pobre
+normal
+familiar
+malo, mala
+tanto, tanta
+responsable
+justo, justa
+rico, rica
+histórico, histórica
+reciente
+plano, plana
+natural
+próximo, próxima
+junto, junta
+tradicional
+rápido, rápida
+caro, cara
+barato, barata
+pasado, pasada
+inteligente
+encontrar
+estudiar
+siguir
+quedar
+llevar
+probar
+mirar
+bajar
+mostrar
+venir
+pesar
+soñar
+buscar
+cerrar
+presentar
+aparecer
+recordar
+allí
+aceptar
+volver
+dar
+tomar
+pensar
+visitar
+respetar
+caber
+parecer
+servir
+contar; contar con
+acabar
+comenzar
+conocer
+firmar
+sentir
+entrar
+entregar
+incluir
+culpar
+importar
+depender
+llegar
+abrir
+requerir
+decir
+empezar
+llamar
+alredador
+lejos
+totalmente
+solamente
+realmente
+jamas
+igualmente
+actualmente
+probablemente
+practicamente
+simplemente
+debajo
+imediamente
+principalmente
+unicamente
+perfectamente
+generalmente
+recentiemente
+aproximadamente asi
+nuavamente
+absolutamente
+definitivamente
+exactamente
+rapidamente
+completament
+seguramente
+mormalmente
+necesariamente
+facilmente
+lentamente
+posiblemente
+importante
+apenas
+todavia
+además
+tampoco
+despacio
+bien nueva
+menos
+antes
+despues
+hacia adelante
+cada
+de esto
+unos quantos
+ambas
+algunas
+pocas
+a qualcier hora
+demasiado
+aun no
+lejos de aqui
+no necesariamente
+casi
+asi no
+de pronto
+siguiente
+entonces
+bastante
+supuesto
+quiza
+cansada
