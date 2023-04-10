@@ -2,7 +2,8 @@ import { assertEquals } from "https://deno.land/std@0.182.0/testing/asserts.ts";
 
 import { Store } from "./modules/TxtAdapter.ts";
 import { Parse, CmdlineParams } from "./modules/CmdlinePortal.ts"
-import { Load } from "./modules/RepeticoJsonAdapter.ts"
+import { Load, Flashcard } from "./modules/RepeticoJsonAdapter.ts"
+import { Map } from "./modules/ConverterCore.ts"
 
 // TxtAdapter
 
@@ -80,4 +81,47 @@ Deno.test('Load should throw an error if the file does not exist', () => {
   } catch (error) {
     assertEquals(error.message, `No such file or directory: ${filename}`);
   }
+});
+
+// ConverterCore
+
+Deno.test('Map should return an array of strings with the answer values', () => {
+  const flashcards: Flashcard[] = [
+    {
+      question: 'q1',
+      answer: 'a1',
+    },
+    {
+      question: 'q2',
+      answer: 'a2 a2',
+    },
+    {
+      question: 'q3',
+      answer: 'a3 a3 a3',
+    },
+  ];
+  const expected = ["a1", "a2 a2", "a3 a3 a3"];
+  const result = Map(flashcards);
+  assertEquals(result, expected);
+});
+
+
+Deno.test('Map should extract only the first line of the answer', () => {
+  const flashcards: Flashcard[] = [
+    {
+      question: 'q1',
+      answer: 'a1',
+    },
+    {
+      question: 'q2',
+      answer: '<p>a2</p>and more',
+    },
+    {
+      question: 'q3',
+      answer: 'a3<br>and more',
+    },
+  ];
+  const expected = ["a1", "a2", "a3"];
+  const result = Map(flashcards);
+  assertEquals(result, expected);
 });
