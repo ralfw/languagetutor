@@ -1,17 +1,3 @@
-// GTPAdapter
-
-
-
-// PromptAdapter
-
-export function InstantiatePromptForQuestions(n:number, s:number, words:string[]):string {
-  throw new Error("Not implemented")
-}
-
-export function InstantiatePromptForAssessment(s:number, answer:string):string {
-  throw new Error("Not implemented")
-}
-
 // QAPortal
 
 export function Ask(question:string):string {

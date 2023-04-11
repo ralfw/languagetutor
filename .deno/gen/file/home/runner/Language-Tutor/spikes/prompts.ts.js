@@ -1,0 +1,11 @@
+import { InstantiatePromptForQuestions, InstantiatePromptForAssessment } from "../modules/qa/PromptAdapter.ts";
+const qPrompt = InstantiatePromptForQuestions("SPANISCH", 5, [
+    "casa",
+    "gato",
+    "coche"
+]);
+console.log(qPrompt);
+console.log("-------");
+const aPrompt = InstantiatePromptForAssessment("SPANISCH", "DEUTSCH", "Él raton come arroz.", "Die Maust isst Reis.");
+console.log(aPrompt);
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImZpbGU6Ly8vaG9tZS9ydW5uZXIvTGFuZ3VhZ2UtVHV0b3Ivc3Bpa2VzL3Byb21wdHMudHMiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgSW5zdGFudGlhdGVQcm9tcHRGb3JRdWVzdGlvbnMsIEluc3RhbnRpYXRlUHJvbXB0Rm9yQXNzZXNzbWVudCB9IGZyb20gXCIuLi9tb2R1bGVzL3FhL1Byb21wdEFkYXB0ZXIudHNcIlxuXG5jb25zdCBxUHJvbXB0ID0gSW5zdGFudGlhdGVQcm9tcHRGb3JRdWVzdGlvbnMoXCJTUEFOSVNDSFwiLCA1LCBbXCJjYXNhXCIsIFwiZ2F0b1wiLCBcImNvY2hlXCJdKTtcbmNvbnNvbGUubG9nKHFQcm9tcHQpO1xuXG5jb25zb2xlLmxvZyhcIi0tLS0tLS1cIilcbmNvbnN0IGFQcm9tcHQgPSBJbnN0YW50aWF0ZVByb21wdEZvckFzc2Vzc21lbnQoXCJTUEFOSVNDSFwiLCBcIkRFVVRTQ0hcIiwgXCLDiWwgcmF0b24gY29tZSBhcnJvei5cIiwgXCJEaWUgTWF1c3QgaXNzdCBSZWlzLlwiKVxuY29uc29sZS5sb2coYVByb21wdCk7Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLFNBQVMsNkJBQTZCLEVBQUUsOEJBQThCLFFBQVEsaUNBQWdDO0FBRTlHLE1BQU0sVUFBVSw4QkFBOEIsWUFBWSxHQUFHO0lBQUM7SUFBUTtJQUFRO0NBQVE7QUFDdEYsUUFBUSxHQUFHLENBQUM7QUFFWixRQUFRLEdBQUcsQ0FBQztBQUNaLE1BQU0sVUFBVSwrQkFBK0IsWUFBWSxXQUFXLHdCQUF3QjtBQUM5RixRQUFRLEdBQUcsQ0FBQyJ9

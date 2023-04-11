@@ -2,6 +2,7 @@ import { assertEquals } from "https://deno.land/std/testing/asserts.ts";
 
 import { Load } from "../modules/TxtAdapter.ts"
 import { SelectWords } from "../modules/qa/QACore.ts";
+import { InstantiatePrompt } from "../modules/qa/PromptAdapter.ts";
 
 // TxtAdapter
 
@@ -40,4 +41,23 @@ Deno.test("SelectWords function does not select the same word multiple times", (
   const selectedWords = SelectWords(words, numberOfWords);
   const uniqueWords = Array.from(new Set(selectedWords));
   assertEquals(selectedWords.length, uniqueWords.length);
+});
+
+
+// PromptAdapter
+
+Deno.test("InstantiatePromptForQuestions should return the correct prompt", () => {
+  const result = InstantiatePrompt(`{A}-{B}
+{C}
+{B}`, {
+    "A": "ES",
+    "C": ["X","Y", "Z"].join("\n"),
+    "B": 42
+  })
+
+  assertEquals(result, `ES-42
+X
+Y
+Z
+42`);
 });
