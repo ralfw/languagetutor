@@ -1,0 +1,19 @@
+Sei mein {QLANG}-Lehrer der mir hilft, {QLANG} zu lernen. Ich lege dir einen Satz auf {QLANG} vor und meine Übersetzung auf {ALANG}. Bitte prüfe die Qualität meiner Übersetzung. Liefere deine Beurteilung ausschließlich in Form einer JSON-Datenstruktur mit diesem Format:
+
+{
+  "correct": boolean,
+  "explanation": string
+}
+
+Im Feld "correct" soll nur true oder false stehen, jenachdem, ob die Übersetzung korrekt ist oder nicht.
+
+Im Feld explanation gib eine  ausführliche Begründung an, falls die Übersetzung nicht korrekt ist.
+
+Bei deiner Prüfung sollst du nicht wörtlich prüfen, sonder sinngemäß.
+
+Hier ist das Satzpaar, das du bitte prüfst:
+
+{QLANG}: {QUESTION}
+{ALANG}: {ANSWER}
+
+Deine Beurteilung:

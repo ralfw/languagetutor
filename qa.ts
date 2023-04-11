@@ -1,16 +1,6 @@
 // GTPAdapter
 
-export function PromptForQuestions(prompt:string):string[] {
-  throw new Error("Not implemented")
-}
 
-export interface Assessment {
-  correct:boolean
-  explanation:string
-}
-export function PromptForAssessment(prompt:string):Assessment {
-  throw new Error("Not implemented")
-}
 
 // PromptAdapter
 

@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "server": "deno/gcp-us-east1",
+    "access-control-allow-origin": "*",
+    "x-deno-warning": "Implicitly using latest version (0.182.0) for https://deno.land/std/fs/mod.ts",
+    "location": "/std@0.182.0/fs/mod.ts",
+    "date": "Tue, 11 Apr 2023 13:02:21 GMT",
+    "vary": "Accept-Encoding",
+    "via": "http/2 edgeproxy"
+  },
+  "url": "https://deno.land/std/fs/mod.ts",
+  "now": {
+    "secs_since_epoch": 1681218142,
+    "nanos_since_epoch": 21741213
+  }
+}

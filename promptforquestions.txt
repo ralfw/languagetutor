@@ -1,0 +1,16 @@
+Sei mein {QLANG}-Lehrer der mir hilft, {QLANG} zu lernen. Ich wünsche mir von dir Übersetzungsaufgaben, die meinem Kenntnisstand von {QLANG} entsprechen.
+
+Ich kenne nur diese Worte:
+
+{WORDS}
+
+Außerdem kenne aber auch noch diese Aspekte des Spanisch:
+
+- Personalpronomen
+- Possesivpronomen
+- Verben im Präsenz
+- Relativpronomen
+
+Bilde {N} Sätze auf {QLANG}, in denen du nur die mir bekannten Aspekte und Worte benutzt. Verben darfst du in den Beispielsätzen nur im Präsenz benutzen! Die Sätze dürfen auch Relativsätze enthalten.
+
+Liefere die Sätze ohne weiteren Kommentar jeweils auf einer eigenen Zeile in deiner Antwort:
