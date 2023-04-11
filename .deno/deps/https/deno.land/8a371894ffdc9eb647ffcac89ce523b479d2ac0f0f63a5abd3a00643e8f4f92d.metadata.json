@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "server": "deno/gcp-us-east1",
+    "vary": "Accept-Encoding",
+    "date": "Tue, 11 Apr 2023 11:21:02 GMT",
+    "x-deno-warning": "Implicitly using latest version (0.182.0) for https://deno.land/std/testing/asserts.ts",
+    "location": "/std@0.182.0/testing/asserts.ts",
+    "access-control-allow-origin": "*",
+    "via": "http/2 edgeproxy"
+  },
+  "url": "https://deno.land/std/testing/asserts.ts",
+  "now": {
+    "secs_since_epoch": 1681212062,
+    "nanos_since_epoch": 289324308
+  }
+}

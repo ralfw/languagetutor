@@ -1,0 +1,12 @@
+export function Parse(args) {
+    if (args.length < 1) {
+        throw new Error('Missing JSON filename as first parameter on command line.');
+    }
+    const jsonFilepath = args[0];
+    const txtFilepath = jsonFilepath.replace(/\.json$/, '.txt');
+    return {
+        jsonFilepath,
+        txtFilepath
+    };
+}
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImZpbGU6Ly8vaG9tZS9ydW5uZXIvTGFuZ3VhZ2UtVHV0b3IvbW9kdWxlcy9yZXBldGljb2NvbnZlcnRlci9DbWRsaW5lUG9ydGFsLnRzIl0sInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBpbnRlcmZhY2UgQ21kbGluZVBhcmFtcyB7XG4gIGpzb25GaWxlcGF0aDogc3RyaW5nO1xuICB0eHRGaWxlcGF0aDogc3RyaW5nO1xufVxuXG5leHBvcnQgZnVuY3Rpb24gUGFyc2UoYXJnczpzdHJpbmdbXSk6IENtZGxpbmVQYXJhbXMge1xuICBpZiAoYXJncy5sZW5ndGggPCAxKSB7XG4gICAgdGhyb3cgbmV3IEVycm9yKCdNaXNzaW5nIEpTT04gZmlsZW5hbWUgYXMgZmlyc3QgcGFyYW1ldGVyIG9uIGNvbW1hbmQgbGluZS4nKTtcbiAgfVxuXG4gIGNvbnN0IGpzb25GaWxlcGF0aCA9IGFyZ3NbMF07XG4gIGNvbnN0IHR4dEZpbGVwYXRoID0ganNvbkZpbGVwYXRoLnJlcGxhY2UoL1xcLmpzb24kLywgJy50eHQnKTtcblxuICByZXR1cm4geyBqc29uRmlsZXBhdGgsIHR4dEZpbGVwYXRoIH07XG59Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUtBLE9BQU8sU0FBUyxNQUFNLElBQWEsRUFBaUI7SUFDbEQsSUFBSSxLQUFLLE1BQU0sR0FBRyxHQUFHO1FBQ25CLE1BQU0sSUFBSSxNQUFNLDZEQUE2RDtJQUMvRSxDQUFDO0lBRUQsTUFBTSxlQUFlLElBQUksQ0FBQyxFQUFFO0lBQzVCLE1BQU0sY0FBYyxhQUFhLE9BQU8sQ0FBQyxXQUFXO0lBRXBELE9BQU87UUFBRTtRQUFjO0lBQVk7QUFDckMsQ0FBQyJ9

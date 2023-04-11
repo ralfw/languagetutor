@@ -1,14 +1,14 @@
 import { assertEquals } from "https://deno.land/std@0.182.0/testing/asserts.ts";
 
-import { Store } from "./modules/TxtAdapter.ts";
-import { Parse, CmdlineParams } from "./modules/CmdlinePortal.ts"
-import { Load, Flashcard } from "./modules/RepeticoJsonAdapter.ts"
-import { Map } from "./modules/ConverterCore.ts"
+import { Store } from "../modules/TxtAdapter.ts";
+import { Parse, CmdlineParams } from "../modules/repeticoconverter/CmdlinePortal.ts"
+import { Load, Flashcard } from "../modules/repeticoconverter/RepeticoJsonAdapter.ts"
+import { Map } from "../modules/repeticoconverter/ConverterCore.ts"
 
 // TxtAdapter
 
 Deno.test("Writing words to txt file", () => {
-  const filename = "./testwords.txt";
+  const filename = "./tests/testwords.txt";
 
   try {
     Deno.removeSync(filename);
@@ -47,13 +47,13 @@ Deno.test('Parse should return the correct filepaths for valid arguments', () =>
 // RepeticoJsonAdapter
 
 Deno.test('Load should return an empty array if the file is empty', () => {
-  const filename = './repetico_empty.json';
+  const filename = './tests/repetico_empty.json';
   const result = Load(filename);
   assertEquals(result, []);
 });
 
 Deno.test('Load should return an array of Flashcard objects for valid JSON data', () => {
-  const filename = './repetico_sample.json';
+  const filename = './tests/repetico_sample.json';
   const expected = [
     {
       question: '<p>der / die</p>',

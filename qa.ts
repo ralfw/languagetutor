@@ -13,9 +13,6 @@ export function Parse(args:string[]): CmdlineParams {
 
 // TxtAdapter
 
-export function Load(filename:string): string[] {
-  throw new Error("Not implemented");
-}
 
 // GTPAdapter
 
@@ -38,12 +35,6 @@ export function InstantiatePromptForQuestions(n:number, s:number, words:string[]
 }
 
 export function InstantiatePromptForAssessment(s:number, answer:string):string {
-  throw new Error("Not implemented")
-}
-
-// QACore
-
-export function SelectWords(words:string[], l:number):string[] {
   throw new Error("Not implemented")
 }
 
