@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "date": "Tue, 11 Apr 2023 12:11:03 GMT",
+    "location": "/x/clay@v0.2.5/mod.ts",
+    "vary": "Accept-Encoding",
+    "via": "http/2 edgeproxy",
+    "server": "deno/gcp-us-east1",
+    "access-control-allow-origin": "*",
+    "x-deno-warning": "Implicitly using latest version (v0.2.5) for https://deno.land/x/clay/mod.ts"
+  },
+  "url": "https://deno.land/x/clay/mod.ts",
+  "now": {
+    "secs_since_epoch": 1681215063,
+    "nanos_since_epoch": 921259560
+  }
+}

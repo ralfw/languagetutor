@@ -1,19 +1,3 @@
-// CmdlinePortal
-
-export interface CmdlineParams {
-  n:number
-  s:string
-  l:number
-  f:string[]
-}
-
-export function Parse(args:string[]): CmdlineParams {
-  throw new Error("Not implemented");
-}
-
-// TxtAdapter
-
-
 // GTPAdapter
 
 export function PromptForQuestions(prompt:string):string[] {

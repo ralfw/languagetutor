@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "cache-control": "public, max-age=31536000, immutable",
+    "last-modified": "Tue, 28 Dec 2021 15:41:46 GMT",
+    "accept-ranges": "bytes",
+    "x-cache": "Miss from cloudfront",
+    "server": "deno/gcp-us-east1",
+    "date": "Tue, 11 Apr 2023 12:11:05 GMT",
+    "etag": "\"f8871784c356800f70a4bad2d611253b\"",
+    "server-timing": "attempt;val=1,cdn-upstream-layer;desc=\"EDGE\",cdn-upstream-dns;dur=0,cdn-upstream-connect;dur=51,cdn-upstream-fbl;dur=128,cdn-cache-miss,cdn-pop;desc=\"ATL59-P2\",cdn-rid;desc=\"esoaCXuCF7-f2v0G8dcgA6Z478YoYjrpfuUHuZ6PUjoOhDG4crNQVQ==\",cdn-downstream-fbl;dur=129,fetchSource;dur=146",
+    "vary": "Accept-Encoding, Origin",
+    "x-amz-replication-status": "COMPLETED",
+    "access-control-allow-origin": "*",
+    "content-type": "application/typescript; charset=utf-8",
+    "via": "http/2 edgeproxy-h",
+    "x-amz-cf-pop": "ATL59-P2",
+    "x-amz-version-id": "eSEpZESvuuDuOK14xt9E2l0l7X6yUKkm",
+    "content-security-policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+    "content-length": "4079",
+    "x-amz-cf-id": "esoaCXuCF7-f2v0G8dcgA6Z478YoYjrpfuUHuZ6PUjoOhDG4crNQVQ=="
+  },
+  "url": "https://deno.land/x/clay@v0.2.5/src/group.ts",
+  "now": {
+    "secs_since_epoch": 1681215064,
+    "nanos_since_epoch": 276895971
+  }
+}
