@@ -2,7 +2,7 @@ import { readJsonSync } from "https://deno.land/std/fs/mod.ts";
 
 // High level adapter
 
-export async function PromptForQuestions(prompt:string):string[] {
+export async function PromptForQuestionsAsync(prompt:string):string[] {
   const txt = await askAsync(prompt, 0.25);
   return txt.split("\n");
 }
@@ -13,7 +13,7 @@ export interface Assessment {
   explanation:string
 }
 
-export async function PromptForAssessment(prompt:string):Assessment {
+export async function PromptForAssessmentAsync(prompt:string):Assessment {
   const json = await askAsync(prompt, 0.25)
   return JSON.parse(json) as Assessment;
 }

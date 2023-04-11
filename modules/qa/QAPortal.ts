@@ -1,10 +1,10 @@
-export function Ask(questions:string[], onAnswer: (question:string, answer:string) => void) {
+export async function AskAsync(questions:string[], onAnswer: (question:string, answer:string) => void) {
   let i=1;
   for(let question of questions) {
     console.log();
     console.log(`${i++}. Q: ${question}`);
     const answer = prompt("A:");
-    onAnswer(question, answer);
+    await onAnswer(question, answer);
   }
 }
 

@@ -1,4 +1,4 @@
-import { PromptForAssessment, PromptForQuestions, askAsync } from "../modules/qa/GPTAdapter.ts"
+import { PromptForAssessmentAsync, PromptForQuestionsAsync, askAsync } from "../modules/qa/GPTAdapter.ts"
 
 const assessmentPrompt = `Sei mein Spanisch-Lehrer der mir hilft, Spanisch zu lernen. Ich lege dir einen Satz auf Spanisch vor und meine Übersetzung auf Deutsch. Bitte prüfe die Qualität meiner Übersetzung. Liefere deine Beurteilung ausschließlich in Form einer JSON-Datenstruktur mit diesem Format:
 
@@ -20,7 +20,7 @@ Deutsch: Die Maus trinkt Reis.
 
 Deine Beurteilung:`;
 
-const assessment = await PromptForAssessment(assessmentPrompt);
+const assessment = await PromptForAssessmentAsync(assessmentPrompt);
 
 console.log(assessment);
 
@@ -53,6 +53,6 @@ Bilde 5 Sätze auf Spanisch, in denen du ausschließlich die mir bekannten Aspek
 Liefere die Sätze ohne weiteren Kommentar jeweils auf einer eigenen Zeile in deiner Antwort:
 `;
 
-const questions = await PromptForQuestions(questionPrompt);
+const questions = await PromptForQuestionsAsync(questionPrompt);
 
 console.log(questions);

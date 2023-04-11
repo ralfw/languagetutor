@@ -11,7 +11,6 @@ export function InstantiatePromptForQuestions(qLang:string, n:number, words:stri
 
 export function InstantiatePromptForAssessment(qLang:string, aLang:string, question:string, answer:string):string {
   let prompt = Deno.readTextFileSync("promptforassessment.txt")
-
   return InstantiatePrompt(prompt, {
     "QLANG": qLang,
     "ALANG": aLang,

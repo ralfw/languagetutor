@@ -1,7 +1,7 @@
-import { Ask, PresentResult } from "../modules/qa/QAPortal.ts"
+import { AskAsync, PresentResult } from "../modules/qa/QAPortal.ts"
 
-Ask(["q1", "q2", "q3"], 
-    (question, answer) => {
+await Ask(["q1", "q2", "q3"], 
+    async (question, answer) => {
       console.log("Q/A: " + question + "/" + answer);
     });
 
